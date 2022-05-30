@@ -103,13 +103,14 @@ const Contact = () => {
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label htmlFor="name" className="uppercase text-sm py-2">Name</label>
+                    <label htmlFor="name" className="uppercase text-sm py-2">Name *</label>
                     <input
                       className="border-2 rounded-lg p-3 border-[#2EC4B6] form-control"
                       type="text"
                       name="name"
                       value={query.name}
                       onChange={handleParam()}
+                      required
                     />
                   </div>
                   <div className="flex flex-col">
@@ -127,13 +128,14 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="flex flex-col py-2 ">
-                    <label htmlFor="email" className="uppercase text-sm py-2">email</label>
+                    <label htmlFor="email" className="uppercase text-sm py-2">email *</label>
                     <input
                       className="border-2 rounded-lg p-3 border-[#2EC4B6] form-control"
                       type="email"
                       name="email"
                       value={query.email}
                       onChange={handleParam()}
+                      required
                     />
                   </div>
                   <div className="flex flex-col py-2 ">
@@ -147,13 +149,14 @@ const Contact = () => {
                     />
                   </div>
                   <div className="flex flex-col py-2 ">
-                    <label htmlFor="message" className="uppercase text-sm py-2">Message</label>
+                    <label htmlFor="message" className="uppercase text-sm py-2">Message *</label>
                     <textarea
                       name="message"
                       rows="10"
                       className="border-2 rounded-lg p-3 border-[#2EC4B6] form-control"
                       value={query.message}
                       onChange={handleParam()}
+                      required
                     ></textarea>
                   </div>
                 </div>

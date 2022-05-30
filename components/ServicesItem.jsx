@@ -6,7 +6,7 @@ const ServicesItem = ({ serviceUrl, title, description }) => {
       <div>
         <img className="rounded-xl" src={serviceUrl} alt="" />
       </div>
-      <h2 className="py-4 text-sm md:text-xl">{title}</h2>
+      <h2 className="py-4 text-lg md:text-xl">{title}</h2>
       <p className="text-center py-4">{description}</p>
     </div>
   );
