@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -37,10 +38,10 @@ const About = () => {
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           {/*  <Image src="/../public/assets/about-me.png" alt="" width={900} height={800}/>*/}
-          <img
+          <Image
             className="rounded-xl"
             src="https://images.unsplash.com/photo-1607004468138-e7e23ea26947?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735"
-            alt="Think outside of the box image. yellow bench"
+            alt="Think outside of the box image. yellow bench"  width={400} height={500}
           />
         </div>
       </div>
