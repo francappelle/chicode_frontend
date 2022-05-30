@@ -17,6 +17,7 @@ const Skills = (props) => {
                 src="/../public/assets/skills/react.png"
                 width="64px"
                 height="64px"
+                alt="react logo"
               />
             }
             skill={"REACT"}
@@ -28,6 +29,7 @@ const Skills = (props) => {
                 src="/../public/assets/skills/next-js.png"
                 width="64px"
                 height="64px"
+                alt="nextjs logo"
               />
             }
             skill={"NEXT JS"}
@@ -39,6 +41,7 @@ const Skills = (props) => {
                 src="/../public/assets/skills/tailwind.png"
                 width="64px"
                 height="64px"
+                alt="tailwind css logo"
               />
             }
             skill={"TAILWIND CSS"}
@@ -50,6 +53,7 @@ const Skills = (props) => {
                 src="/../public/assets/skills/firebase.png"
                 width="64px"
                 height="64px"
+                alt="firebase logo"
               />
             }
             skill={"FIREBASE"}
@@ -61,6 +65,7 @@ const Skills = (props) => {
                 src="/../public/assets/skills/strapi.png"
                 width="64px"
                 height="64px"
+                alt="strapi logo"
               />
             }
             skill={"STRAPI"}
@@ -72,6 +77,7 @@ const Skills = (props) => {
                 src="/../public/assets/skills/wordpress.png"
                 width="64px"
                 height="64px"
+                alt="wordpress logo"
               />
             }
             skill={"WORDPRESS"}
@@ -83,6 +89,7 @@ const Skills = (props) => {
                 src="/../public/assets/skills/mongo.png"
                 width="64px"
                 height="64px"
+                alt="mongo db logo"
               />
             }
             skill={"MONGO DB"}
@@ -94,6 +101,7 @@ const Skills = (props) => {
                 src="/../public/assets/skills/express.png"
                 width="64px"
                 height="64px"
+                alt="express js logo"
               />
             }
             skill={"EXPRESS JS"}
