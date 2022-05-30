@@ -11,18 +11,18 @@ const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#fff");
   const [linkColor, setLinkColor] = useState("#000");
-  const [logo, setLogo] = useState("/../public/assets/logo-o.png");
+  const [logo, setLogo] = useState("/../public/assets/logos/logoO.png");
   const router = useRouter();
 
   useEffect(() => {
     if (router.asPath === "/property" || router.asPath === "/otherpage") {
       setNavBg("transparent");
       setLinkColor("#fff");
-      setLogo("/../public/assets/logo-w.png");
+      setLogo("/../public/assets/logos/logoW.png");
     } else {
       setNavBg("#fff");
       setLinkColor("#000");
-      setLogo("/../public/assets/logo-o.png");
+      setLogo("/../public/assets/logos/logoO.png");
     }
   }, [router]);
 
@@ -107,7 +107,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <Image
-                  src="/../public/assets/logo-b.png"
+                  src="/../public/assets/logos/logoB.png"
                   alt=""
                   width="100"
                   height="100"
