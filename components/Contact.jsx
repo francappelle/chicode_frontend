@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsChevronDoubleUp, BsYoutube, BsTwitter } from "react-icons/bs";
-import contactImg from '../public/assets/images/contact.png'
 
 const Contact = () => {
   const [query, setQuery] = useState({
@@ -48,7 +47,8 @@ const Contact = () => {
               <div className="hover:scale-105 ease-in duration-300 mb-3 hidden md:block">
                 <Image
                   className="rounded-xl "
-                  src={contactImg}
+                  src='https://res.cloudinary.com/da7gjdcwj/image/upload/v1653947196/chicode/images/contact_x3nqlc.png'
+                  width={1500} height={800}
                   alt="/"
                 />
               </div>
@@ -168,8 +168,9 @@ const Contact = () => {
               <div className="md:hidden hover:scale-105 ease-in duration-300 mt-10 mb-4">
                 <Image
                   className="rounded-xl "
-                  src={contactImg}
+                  src="https://res.cloudinary.com/da7gjdcwj/image/upload/v1653947196/chicode/images/contact_x3nqlc.png"
                   alt="/"
+                  width={1500} height={800}
                 />
               </div>
 

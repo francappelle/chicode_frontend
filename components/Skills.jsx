@@ -14,7 +14,7 @@ const Skills = (props) => {
           <Skill
             image={
               <Image
-                src="/../public/assets/skills/react.png"
+                src="https://res.cloudinary.com/da7gjdcwj/image/upload/v1653947198/chicode/skills/react_otg9sx.png"
                 width="64px"
                 height="64px"
                 alt="react logo"
@@ -26,7 +26,7 @@ const Skills = (props) => {
           <Skill
             image={
               <Image
-                src="/../public/assets/skills/next-js.png"
+                src="https://res.cloudinary.com/da7gjdcwj/image/upload/v1653947197/chicode/skills/next-js_uybymi.png"
                 width="64px"
                 height="64px"
                 alt="nextjs logo"
@@ -38,7 +38,7 @@ const Skills = (props) => {
           <Skill
             image={
               <Image
-                src="/../public/assets/skills/tailwind.png"
+                src="https://res.cloudinary.com/da7gjdcwj/image/upload/v1653947197/chicode/skills/tailwind_pfgc2v.png"
                 width="64px"
                 height="64px"
                 alt="tailwind css logo"
@@ -50,7 +50,7 @@ const Skills = (props) => {
           <Skill
             image={
               <Image
-                src="/../public/assets/skills/firebase.png"
+                src="https://res.cloudinary.com/da7gjdcwj/image/upload/v1653947196/chicode/skills/firebase_mnxpa2.png"
                 width="64px"
                 height="64px"
                 alt="firebase logo"
@@ -62,7 +62,7 @@ const Skills = (props) => {
           <Skill
             image={
               <Image
-                src="/../public/assets/skills/strapi.png"
+                src="https://res.cloudinary.com/da7gjdcwj/image/upload/v1653947197/chicode/skills/strapi_ou9irk.png"
                 width="64px"
                 height="64px"
                 alt="strapi logo"
@@ -74,7 +74,7 @@ const Skills = (props) => {
           <Skill
             image={
               <Image
-                src="/../public/assets/skills/wordpress.png"
+                src="https://res.cloudinary.com/da7gjdcwj/image/upload/v1653947197/chicode/skills/wordpress_j36yz8.png"
                 width="64px"
                 height="64px"
                 alt="wordpress logo"
@@ -86,7 +86,7 @@ const Skills = (props) => {
           <Skill
             image={
               <Image
-                src="/../public/assets/skills/mongo.png"
+                src="https://res.cloudinary.com/da7gjdcwj/image/upload/v1653947197/chicode/skills/mongo_v9dvhn.png"
                 width="64px"
                 height="64px"
                 alt="mongo db logo"
@@ -98,7 +98,7 @@ const Skills = (props) => {
           <Skill
             image={
               <Image
-                src="/../public/assets/skills/express.png"
+                src="https://res.cloudinary.com/da7gjdcwj/image/upload/v1653947196/chicode/skills/express_b7z7op.png"
                 width="64px"
                 height="64px"
                 alt="express js logo"
