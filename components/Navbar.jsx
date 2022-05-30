@@ -151,7 +151,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-40">
+    { /*       <div className="pt-40">
               <p className="uppercase text-[#587B7F]">Let's talk!</p>
               <div className="flex items-center justify-between w-full sm:w-[60%]">
                 <div className="py-6">
@@ -167,7 +167,7 @@ const Navbar = () => {
                   <AiOutlineMail size={25} />
                 </div>
               </div>
-            </div>
+      </div> */}
           </div>
         </div>
       </div>

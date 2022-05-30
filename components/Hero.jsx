@@ -21,7 +21,7 @@ const Hero = () => {
 
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="cursor-pointer rounded-full shadow-lg shadow-gray-400 p-3 hover:scale-105 ease-in duration-300">
-              <Link href="https://linkedin.com">
+              <Link href="https://www.linkedin.com/in/francisco-cappelle/">
                 <a target="_blank">
                   <FaLinkedinIn
                     className="hover:text-[#007bb5] ease-in duration-100"
@@ -31,7 +31,7 @@ const Hero = () => {
               </Link>
             </div>
             <div className="cursor-pointer rounded-full shadow-lg shadow-gray-400 p-3 hover:scale-105 ease-in duration-300">
-              <Link href="https://www.github.com">
+              <Link href="https://github.com/francappelle">
                 <a target="_blank">
                   <FaGithub
                     className="hover:text-[#000] ease-in duration-100"
@@ -51,7 +51,7 @@ const Hero = () => {
               </Link>
             </div>
             <div className="cursor-pointer rounded-full shadow-lg shadow-gray-400 p-3 hover:scale-105 ease-in duration-300">
-              <Link href="mailto:franchicocappelle@gmail.com">
+              <Link href="https://twitter.com/francIscappelle">
                 <a target="_blank">
                   <BsTwitter
                     className="hover:text-[#55acee] ease-in duration-100"
