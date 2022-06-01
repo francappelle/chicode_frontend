@@ -106,6 +106,7 @@ const Contact = () => {
                     <label htmlFor="name" className="uppercase text-sm py-2">Name *</label>
                     <input
                       className="border-2 rounded-lg p-3 border-[#2EC4B6] form-control"
+                      aria-label="Name"
                       type="text"
                       name="name"
                       value={query.name}
@@ -119,6 +120,7 @@ const Contact = () => {
                     </label>
                     <input
                       className="border-2 rounded-lg p-3 border-[#2EC4B6] form-control"
+                      aria-label="Phone number"
                       type="number"
                       name="phone"
                       value={query.phone}
@@ -131,6 +133,7 @@ const Contact = () => {
                     <label htmlFor="email" className="uppercase text-sm py-2">email *</label>
                     <input
                       className="border-2 rounded-lg p-3 border-[#2EC4B6] form-control"
+                      aria-label="Email"
                       type="email"
                       name="email"
                       value={query.email}
@@ -142,6 +145,7 @@ const Contact = () => {
                     <label htmlFor="subject" className="uppercase text-sm py-2">Subject</label>
                     <input
                       className="border-2 rounded-lg p-3 border-[#2EC4B6] form-control"
+                      aria-label="Subject"
                       type="text"
                       name="subject"
                       value={query.subject}
@@ -152,6 +156,7 @@ const Contact = () => {
                     <label htmlFor="message" className="uppercase text-sm py-2">Message *</label>
                     <textarea
                       name="message"
+                      aria-label="Message"
                       rows="10"
                       className="border-2 rounded-lg p-3 border-[#2EC4B6] form-control"
                       value={query.message}
